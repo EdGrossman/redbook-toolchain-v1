@@ -1,8 +1,7 @@
 applications:
 - name: redbooklibrary
   memory: 512M
-  path: RedbookLibrary.war
-  host: redbook-library
-  buildpack: liberty-for-java 
-  services:
-  - redbooklib-dashDB
+  path: RedbookLibraryDerby.war
+  host: redbook-library-ctd1
+  buildpack: java_buildpack 
+
