@@ -15,6 +15,7 @@ public class Book {
 	
 	public void setBorrowedCount(int borrowedCount) {
 		this.borrowedCount = borrowedCount;
+		
 	}
 	public String getName() {
 		return name;
